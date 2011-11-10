@@ -3,3 +3,4 @@
 *.swo
 *~
 sqlite3.db
+local_settings.py
