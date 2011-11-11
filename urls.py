@@ -5,6 +5,7 @@ from django.conf.urls.defaults import patterns, include, url
 # admin.autodiscover()
 
 urlpatterns = patterns('',
+    url(r'^calendar/', include('apimailson.calendarapp.urls')),
     # Examples:
     # url(r'^$', 'apimailson.views.home', name='home'),
     # url(r'^apimailson/', include('apimailson.foo.urls')),
